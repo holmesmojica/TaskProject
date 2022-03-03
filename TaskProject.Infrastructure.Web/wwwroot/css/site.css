@@ -1,0 +1,64 @@
+
+:root {
+    /* COLOR VAR */
+    --body-bk-color: #E5E6EC;
+    --active-bk-nav-color: #3EB9FD;
+    --nav-bk-color: #CBCDCE;
+}
+
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--body-bk-color);
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white !important;
+    background-color: var(--nav-bk-color);
+}
+
+.nav-menu li .active {
+    background-color: var(--active-bk-nav-color)
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+
+.loading {
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+
+.to-be-done-task-head {
+    background-color: var(--nav-bk-color);
+}
+
+.completed-task-head {
+    background-color: var(--active-bk-nav-color);
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
